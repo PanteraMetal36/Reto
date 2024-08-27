@@ -3,8 +3,8 @@
     Encriptador de Texto - RETO # 1
     <br />
     <br />
-    <a href="https://github.com">
-      <img src="imgReadme.png" width="250" height="250" alt="candado">
+    <a href="https://github.com/PanteraMetal36/Reto/blob/master/img/imgReadme.png">
+      <img src="imgReadme.png" width="250" height="250" alt="Imagen para readme">
     </a>
   </h1>
 </div>
@@ -30,14 +30,14 @@ Este proyecto es un encriptador y desencriptador de texto simple. Permite al usu
 
 ## Capturas de Pantalla
 
-![image](https://github.com/user-attachments/assets/a2d94bd0-b310-49e0-b382-98bd964d4417)
+![alt text](capturaPantalla.jpg)
 
 
 ## Uso
 
 1. Clona este repositorio.
     ```bash
-    git clone https://github.com/Edwseth/encriptadoTexto
+    git clone https://github.com/PanteraMetal36/Reto
     ```
 2. Abre el archivo `index.html` en tu navegador.
 
