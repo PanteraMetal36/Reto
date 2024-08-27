@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="titulo">
+                <img src="./img/Logo.png" alt="Logo de alura">  
+                <h1>Encriptador de texto</h1> 
+            </div>
+              
+        </header>
+    </div>
+    
+    <main>
+        <div class="entrada">
+            <div class="ingreso">
+                <textarea style="background-color: var(-color-secundario)" class="textarea1" id="inputText" placeholder="Ingresa el texto aquí..." oninput="filtrarEntrada()"></textarea>
+            </div>
+            <div>
+                <div class="advertencia">
+                    <img src="./img/advertencia.png" width="26" height="26" alt="advertencia">
+                    <u>Solo letras minúsculas y sin acento.</u>
+                </div>
+                <div class="botones">
+                    <button onclick="encriptar()" id="activarEncriptado" disabled>Encriptar</button>
+                    <button onclick="desencriptar()" id="activarDesencriptado" disabled>Desencriptar</button>
+                    <button onclick="limpiar()" id="limpiarTodo" class="borrar" disabled>Limpiar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="salida">
+            <p id="outputText" class="salida__texto" placeholder="Texto encriptado/desencriptado aparecerá aquí..."></p>
+            <div class="salida__mensajes" id="myDIV">
+                <img src="./img/imgEncriptar.png" width="320" height="320" alt="imgEncriptar" class="imgEncriptar">
+                <h1>Ningún mensaje fue encontrado.</h1>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="boton">
+                <button onclick="copiar()" class="copiar" id="limpiar" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy;2024 JARM. Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

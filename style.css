@@ -1,0 +1,212 @@
+:root {
+    --color-primario: #CED4DA;
+    --color-secundario: #ADB5BD;
+    --color-terciario: #868E96;
+    --color-cuartario: #495057;
+    --fuente: 'JMH Typewriter', Mom´sTypewriter;
+    --fuente-color: #000000;
+    --sombra: rgba(0, 0, 0, 0.1);
+    --transicion: 0.3s;
+}
+
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+    color: var(--fuente-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--color-primario);
+    margin: 0;
+    
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+ 
+}
+
+.titulo {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+p, h1 {
+    color:var(--fuente-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 82px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingreso {
+    background: var(--color-secundario);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    width: 100%;
+    min-width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px var(--sombra);
+    transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.salida {
+    background: var(--color-secundario);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    width: 680px; 
+    max-width: 400px;
+    min-width: 200px;
+    height: auto; 
+    margin-bottom: 20px;
+    overflow: hidden; /* Oculta el desbordamiento del contenido */ 
+    box-shadow: 0 4px 6px var(--sombra);
+    transition: transform var(--transicion), box-shadow var(--transicion);
+}
+
+.ingreso:hover, .salida:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px var(--sombra);
+}
+
+.textarea1 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px; 
+    resize: none;
+    transition: border var(--transicion);
+}
+
+.textarea1:focus { 
+    outline: none;
+    border: 2px solid var(--color-cuartario); 
+}
+
+.advertencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.advertencia p {
+    margin: 0;
+    font-size: 12px;
+    
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    background-color: var(--color-terciario);
+    color: var(--fuente-color);
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px var(--sombra); 
+    transition: background-color var(--transicion), transform var(--transicion); 
+    color: var(--fuente-color);
+}
+
+button:hover {
+    background-color: var(--color-cuartario);
+    transform: translateY(-3px);
+}
+
+button:disabled {
+    background-color: var(--color-secundario);
+    color: var(--fuente-color);
+    cursor: not-allowed;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.salida__texto {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: var(--color-secundario);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    overflow-wrap: break-word;
+    overflow: auto; /* Agrega desplazamiento si el texto es demasiado largo */
+}
+
+.salida__mensajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgEncriptar {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: var(--color-cuartario);
+    padding: 8px;
+    color: var(--fuente-color);
+}
+
+@media (max-width: 830px) {
+    header {
+        padding: 0px;
+    }
+    .titulo {
+        justify-content: space-between;
+    }
+    main {
+        flex-direction: column; 
+    }
+    .imgEncriptar {
+        display: none;
+    }
+    .ingreso, .salida, .textarea1 {
+        width: 95%;
+        justify-content: center;
+    }
+}
