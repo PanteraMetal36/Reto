@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="https://github.com/PanteraMetal36/Reto/blob/master/img/imgReadme.png">
-      <img src="imgReadme.png" width="250" height="250" alt="Imagen para readme">
+      <img src="imgReadme.png" width="250" height="250" alt="imgReadme">
     </a>
   </h1>
 </div>
