@@ -3,7 +3,7 @@
     Encriptador de Texto - RETO # 1
     <br />
     <br />
-    <a href="https://github.com/PanteraMetal36/Reto/blob/master/img/imgReadme.png">
+    <a href="https://github.com/PanteraMetal36/Reto/blob/d70acfdd3245f6791a38007d8f78aa9edb0519ff/img/imgReadme.png">
       <img src="imgReadme.png" width="250" height="250" alt="imgReadme">
     </a>
   </h1>
