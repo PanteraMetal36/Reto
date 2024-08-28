@@ -30,7 +30,9 @@ Este proyecto es un encriptador y desencriptador de texto simple. Permite al usu
 
 ## Capturas de Pantalla
 
-![alt text](capturaPantalla.jpg)
+ <a href="https://github.com">
+      <img src="https://github.com/PanteraMetal36/Reto/blob/d70acfdd3245f6791a38007d8f78aa9edb0519ff/img/imgReadme.png" width="450" height="250" alt="imgReadme">
+ </a>
 
 
 ## Uso
