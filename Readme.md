@@ -3,7 +3,7 @@
     Encriptador de Texto - RETO # 1
     <br />
     <br />
-    <a href="https://github.com">
+    <a>
       <img src="https://github.com/PanteraMetal36/Reto/blob/d70acfdd3245f6791a38007d8f78aa9edb0519ff/img/imgReadme.png" width="450" height="250" alt="imgReadme">
     </a>
   </h1>
@@ -30,8 +30,8 @@ Este proyecto es un encriptador y desencriptador de texto simple. Permite al usu
 
 ## Capturas de Pantalla
 
- <a href="https://github.com">
-      <img src="https://github.com/PanteraMetal36/Reto/blob/668b92d3f150e4946762fe9c68918be92784250b/img/capturaPantalla.png" width="450" height="250" alt="imgReadme">
+ <a>
+      <img src="https://github.com/PanteraMetal36/Reto/blob/668b92d3f150e4946762fe9c68918be92784250b/img/capturaPantalla.png" width="450" height="250" alt="capturaPantalla">
  </a>
 
 
